@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+    <script src="control.js" defer></script>
+</head>
+<style>
+
+label{
+    display:block;
+    float: left;
+    width: 70px;
+}
+
+.boton{
+
+margin-top: 20px;
+margin-left: 70px;
+}
+
+h3{
+    margin-left : 30px;
+}
+</style>
+<body>
+    <h3>Ingreso al sistema</h3>
+    <form id="formulario">
+        <div>
+        <label for="user">Usuario:</label>
+        <input type="text" name="user" id="user" placeholder="Buscar">
+        </div>
+        <div>
+        <label for="password">Clave:</label>
+        <input type="password" name="clave" id="clave" placeholder="Buscar">
+        </div>
+        <input type="submit" value="Ingresar" class="boton">
+    </form>
+
+    
+</body>
+</html>
